@@ -12,6 +12,7 @@ public class TestJenkins {
 		System.setProperty("webdriver.chrome.driver", ".//BrowsersDrivers//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://cookbook.seleniumacademy.com/bmicalculator.html");
+		driver.getTitle();
 	}
 
 }
